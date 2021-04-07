@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 app = Quart(__name__)
 
-website='www.ahmia.fi'
+website='www.archive.org'
 
 def get(url,headers):
 	return requests.get(url,headers=headers)
